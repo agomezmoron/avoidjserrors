@@ -1,6 +1,6 @@
 /**
  * Depends on jQuery. The aim of this function is avoiding errors if there are some call to an undefined function.
- * This function find all javascript calls in the dom and define it if it not defined yet.
+ * This function find all javascript calls in the dom and define it if it is not defined yet.
  */
 function findFunctionCalls(DOM) {
     var uniqueNames = {}
